@@ -1,20 +1,21 @@
-
 def gcd_1():
-    x=int (input('x ='))
-    y=int (input('y ='))
+    x = int(input("x ="))
+    y = int(input("y ="))
 
-    for i in range (x ,0, -1):
-        if x % i==0 and y%i==0:
-            print(f'最大公约数是：{i}')
+    for i in range(x, 0, -1):
+        if x % i == 0 and y % i == 0:
+            print(f"最大公约数是：{i}")
             break
 
-def gcd_2():
-    x=int (input('x ='))
-    y=int (input('y ='))
 
-    while y % x!=0:
-        x, y= y % x, x
-    print(f'最大公约数：{x}')
+def gcd_2():
+    x = int(input("x ="))
+    y = int(input("y ="))
+
+    while y % x != 0:
+        x, y = y % x, x
+    print(f"最大公约数：{x}")
+
 
 def random_number():
     import random
@@ -23,15 +24,15 @@ def random_number():
     counter = 0
     while True:
         counter += 1
-        num= int (input('请输入'))
+        num = int(input("请输入"))
         if num < answer:
-            print('小了')
+            print("小了")
         elif num > answer:
-            print('大了')
+            print("大了")
         else:
-            print('对了')
+            print("对了")
             break
-    print(f'你一共猜对了{counter}次')
+    print(f"你一共猜对了{counter}次")
 
 
 def sum_1_to_100_for():
@@ -78,7 +79,7 @@ def sum_evens_2_to_100_while():
 def sheet9x9():
     for i in range(1, 10):
         for j in range(1, 10):
-            print(f'{i}x{j}={i*j}', end='\t')
+            print(f"{i}x{j}={i*j}", end="\t")
         print()
 
 
@@ -90,11 +91,13 @@ def run_all_x3():
     print("5) while: 2~100 偶数和 =", sum_evens_2_to_100_while())
     print("6) 输出乘法表：")
     sheet9x9()
+
+
 def time():
     import time
 
     for i in range(3600):
-        print('hello')
+        print("hello")
         time.sleep(1)
 
 
@@ -141,5 +144,6 @@ def run():
     else:
         print("输入无效：请输 1~10 或 a")
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     run()

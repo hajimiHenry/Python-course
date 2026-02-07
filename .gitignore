@@ -13,9 +13,11 @@ ENV/
 
 # Agent configuration
 .agent/
+.gemini/
 
 # Notes / vault metadata
 .obsidian/
+.crossnote/
 
 # Course / tutorial materials (keep workspace clean)
 Python-100-Days/

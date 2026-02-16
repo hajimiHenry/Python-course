@@ -1,0 +1,11 @@
+s = " Hello,Python World! "
+s = s.strip()
+print(s)
+s = s.lower()
+print(s)
+s = s.replace("python", "java")
+print(s)
+word =s.split()
+print(word)
+string = '-'.join(word)
+print(string)

@@ -21,3 +21,5 @@ ENV/
 
 # Course / tutorial materials (keep workspace clean)
 Python-100-Days/
+
+material_for_wordcloud/

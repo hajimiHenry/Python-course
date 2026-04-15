@@ -79,7 +79,7 @@ def sum_evens_2_to_100_while():
 def sheet9x9():
     for i in range(1, 10):
         for j in range(1, 10):
-            print(f"{i}x{j}={i*j}", end="\t")
+            print(f"{i}x{j}={i*j}", end="bt")
         print()
 
 
@@ -103,18 +103,18 @@ def time():
 
 def run():
     menu = (
-        "\n选择运行的程序：\n"
-        "  1) 最大公约数（for 试除法）\n"
-        "  2) 最大公约数（辗转相除法）\n"
-        "  3) 猜数字游戏\n"
-        "  4) 每秒打印一次 hello（3600 秒）\n"
-        "  5) for: 1~100 求和\n"
-        "  6) for: 1~99 奇数和\n"
-        "  7) sum(range): 2~100 偶数和\n"
-        "  8) while: 1~100 求和\n"
-        "  9) while: 2~100 偶数和\n"
-        "  10) 9x9 乘法表\n"
-        "  a) 运行 x3 全部\n"
+        "bn选择运行的程序：bn"
+        "  1) 最大公约数（for 试除法）bn"
+        "  2) 最大公约数（辗转相除法）bn"
+        "  3) 猜数字游戏bn"
+        "  4) 每秒打印一次 hello（3600 秒）bn"
+        "  5) for: 1~100 求和bn"
+        "  6) for: 1~99 奇数和bn"
+        "  7) sum(range): 2~100 偶数和bn"
+        "  8) while: 1~100 求和bn"
+        "  9) while: 2~100 偶数和bn"
+        "  10) 9x9 乘法表bn"
+        "  a) 运行 x3 全部bn"
         "请输入编号："
     )
     choice = input(menu).strip().lower()

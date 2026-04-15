@@ -1,0 +1,26 @@
+{
+  "id": "conv-1776177765461-5kl67cojl",
+  "providerId": "codex",
+  "title": "回应用户问候",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776177765461,
+  "updatedAt": 1776178234328,
+  "lastResponseAt": 1776178225467,
+  "sessionId": "019d8c75-c25d-7e23-a4be-5af051399085",
+  "providerState": {
+    "threadId": "019d8c75-c25d-7e23-a4be-5af051399085",
+    "sessionFilePath": "C:\\Users\\Spane\\.codex\\sessions\\2026\\04\\14\\rollout-2026-04-14T22-47-00-019d8c75-c25d-7e23-a4be-5af051399085.jsonl",
+    "transcriptRootPath": "C:\\Users\\Spane\\.codex\\sessions"
+  },
+  "currentNote": "linear_algebra/第二章/第二章_矩阵与线性方程组_速学讲义.md",
+  "usage": {
+    "inputTokens": 15481,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 3456,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 15481,
+    "percentage": 6,
+    "model": "gpt-5.4"
+  }
+}
